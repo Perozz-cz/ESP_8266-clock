@@ -86,7 +86,6 @@ Navigate using the buttons to set one of the two alarms.
 When an alarm goes off, the buzzer will sound. Silence it by pressing a button.
 
 ## Dependencies
-
 ### library is in this project: 
   DIYables_MicroPython_LCD_I2C: For controlling the LCD.
 
@@ -98,3 +97,31 @@ network: For WiFi functionality.
 ntptime: For synchronizing with an NTP server.
 
 gc: For garbage collection.
+
+# Wiring
+## LCD I2C 16x2 display
+SCL --> ESP 8266 | Pin D1
+
+SDA --> ESP 8266 | Pin D2
+
+VCC --> ESP 8266 | 3V
+
+GND --> ESP 8266 | GND
+## Motion detector HC-SR501
+VCC --> ESP 8266 | 3V
+
+OUT --> ESP 8266 | Pin D5
+
+GND --> ESP 8266 | GND
+## Push button - 1
+Button Pin 1 --> ESP 8266 | GND
+
+Button Pin 2 --> ESP 8266 | Pin D7
+## Push button - 2
+Button Pin 1 --> ESP 8266 | GND
+
+Button Pin 2 --> ESP 8266 | Pin D6
+## Buzzer
+Buzzer Pin 1 --> ESP 8266 | GND
+
+Buzzer Pin 2 --> ESP 8266 | D8
