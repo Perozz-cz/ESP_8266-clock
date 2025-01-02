@@ -14,6 +14,8 @@ WiFi Time Configuration: Set the time using a WiFi connection.
 
 Low Power: Optimized for low power consumption.
 
+Automatic display light switch: If there is no motion display light turns off.
+
 ## Components Required
 ESP8266 microcontroller
 
@@ -22,6 +24,8 @@ Buzzer module
 LCD I2C 16x2 display
 
 2 x Push buttons
+
+Motion detector HC-SR501
 
 ## How It Works
 ### Clock Functionality
@@ -45,6 +49,10 @@ Once connected, the ESP8266 synchronizes the current time with an NTP server.
 
 ## Buzzer
 The buzzer is activated for alarms and can be silenced by pressing any button.
+
+## Motin detector
+If there motion isnt detected for 20second the display background light turns off.
+Automatic display light switch: If there is no motion display light turns off
 
 ## LCD Display
 The LCD I2C 16x2 display shows the current time, alarm settings...
