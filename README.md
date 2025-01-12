@@ -1,5 +1,5 @@
 # ESP_8266-clock
-ESP8266 Clock with Alarms and WiFi Configuration
+ESP8266 Clock with Alarms and WiFi synchronization
 
 This project implements a clock using the ESP8266 microcontroller. The clock features two alarms, a buzzer, and the ability to set the time via WiFi. It is programmed using MicroPython.
 
@@ -10,9 +10,7 @@ Dual Alarms: Two configurable alarms for different times.
 
 Buzzer: Audible alarm notification.
 
-WiFi Time Configuration: Set the time using a WiFi connection.
-
-Low Power: Optimized for low power consumption.
+Time synchronization via WIFI: Set the time using a WiFi connection.
 
 Automatic display light switch: If there is no motion display light turns off.
 
@@ -39,7 +37,7 @@ Two alarms can be configured using the buttons.
 When an alarm is triggered, the buzzer sounds until dismissed.
 ### WiFi Configuration
 
-You can create a WiFi hotspot with the name "hodiny" and password "12345678" on your device.
+You can create a WiFi hotspot with the name "hodiny" and password "12345678" on your phone or other device.
 
 Pres the first button and navigate to "nastaveni casu pres WIFI" then pres the second button
 
@@ -51,8 +49,7 @@ Once connected, the ESP8266 synchronizes the current time with an NTP server.
 The buzzer is activated for alarms and can be silenced by pressing any button.
 
 ## Motin detector
-If there motion isnt detected for 20second the display background light turns off.
-Automatic display light switch: If there is no motion display light turns off
+If there motion isn't detected for 20second the display background light turns off.
 
 ## LCD Display
 The LCD I2C 16x2 display shows the current time, alarm settings...
