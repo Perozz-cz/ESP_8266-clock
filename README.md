@@ -37,9 +37,9 @@ Two alarms can be configured using the buttons.
 When an alarm is triggered, the buzzer sounds until dismissed.
 ### WiFi Configuration
 
-if you want to synchronize the clock create a WiFi hotspot with the name "hodiny" and password "12345678" on your phone or other device.
+if you want to synchronize the clock create a WiFi hotspot with the name `hodiny` and password `12345678` on your phone or other device.
 
-Pres the first button and navigate to "nastaveni casu pres WIFI" then pres the second button
+Pres the first button and navigate to `nastaveni casu pres WIFI` then pres the second button
 
 The ESP8266 will connect to this hotspot.
 
@@ -74,7 +74,7 @@ Power on the ESP8266
 
 The clock will initialize and display the time on the LCD.
 
-Navigate and select "nastaveni casu pres WIFI"
+Navigate and select `nastaveni casu pres WIFI`
 
 Create a hotspot on your device with the name hodiny and password 12345678.
 
