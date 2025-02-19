@@ -48,7 +48,7 @@ Once connected, the ESP8266 synchronizes the current time with NTP server.
 ## Buzzer
 The buzzer is activated for alarms and can be silenced by pressing any button.
 
-## Motin detector
+## Motion detector
 If there motion isn't detected for 20second the display background light turns off.
 
 ## LCD Display
