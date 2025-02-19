@@ -8,7 +8,7 @@ Digital Clock: Displays the current time.
 
 Dual Alarms: Two configurable alarms for different times.
 
-Buzzer: Audible alarm notification.
+Buzzer: Alarm notification.
 
 Time synchronization via WIFI: Set the time using a WiFi connection.
 
