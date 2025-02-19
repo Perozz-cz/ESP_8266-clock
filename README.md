@@ -1,7 +1,7 @@
 # ESP_8266-clock
 ESP8266 Clock with Alarms and WiFi synchronization
 
-This project implements a clock using the ESP8266 microcontroller. The clock features two alarms, a buzzer, and the ability to set the time via WiFi. It is programmed using MicroPython.
+This project implements a clock using the ESP8266 microcontroller. The clock features two alarms, motion detector for activation backlight, a buzzer, and the ability to set the time via WiFi. It is programmed using MicroPython.
 
 ## Features
 Digital Clock: Displays the current time.
