@@ -43,7 +43,7 @@ Pres the first button and navigate to "nastaveni casu pres WIFI" then pres the s
 
 The ESP8266 will connect to this hotspot.
 
-Once connected, the ESP8266 synchronizes the current time with an NTP server.
+Once connected, the ESP8266 synchronizes the current time with NTP server.
 
 ## Buzzer
 The buzzer is activated for alarms and can be silenced by pressing any button.
