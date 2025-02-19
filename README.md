@@ -49,7 +49,7 @@ Once connected, the ESP8266 synchronizes the current time with NTP server.
 The buzzer is activated for alarms and can be silenced by pressing any button.
 
 ## Motion detector
-If there motion isn't detected for 20second the display background light turns off.
+If motion isn't detected for 20 seconds, the display background light turns off.
 
 ## LCD Display
 The LCD I2C 16x2 display shows the current time, alarm settings...
@@ -76,11 +76,11 @@ The clock will initialize and display the time on the LCD.
 
 Navigate and select `nastaveni casu pres WIFI`
 
-Create a hotspot on your device with the name hodiny and password 12345678.
+Create a hotspot on your device with the name `hodiny` and password `12345678`.
 
 Navigate using the buttons to set one of the two alarms.
 
-When an alarm goes off, the buzzer will sound. Silence it by pressing a button.
+When an alarm goes off, the buzzer will sound. Silence it by pressing any button.
 
 ## Dependencies
 ### library is in this project: 
